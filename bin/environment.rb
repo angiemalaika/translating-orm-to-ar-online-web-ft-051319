@@ -7,8 +7,8 @@ require_relative '../lib/dog'
 require_relative 'sql_runner'
 
 DB = ActiveRecord::Base.establish_connection(
-      :adapter => "sqlite3",
-      :database => "../db/dogs"
+      :adapter => "sqlite3",   #what database is this 
+      :database => "../db/dogs" #whats the name of the datase and where is it ?
     )
 
   DB = ActiveRecord::Base.connection
